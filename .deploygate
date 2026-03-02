@@ -1,0 +1,14 @@
+# deploy-gate config
+# Sections map to environments: production, staging, preview, etc.
+# Run with: node index.js --env production
+
+[production]
+no_console_log: true
+no_debugger: true
+tests_pass: echo "no tests configured"
+uncommitted_changes: warn
+branch_is: main
+
+[staging]
+uncommitted_changes: warn
+no_debugger: true

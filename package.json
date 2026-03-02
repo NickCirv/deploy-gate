@@ -1,0 +1,10 @@
+{
+  "name": "deploy-gate",
+  "version": "1.0.0",
+  "description": "Pre-deployment checklist that actually enforces itself. No more 'I forgot to run tests' in production.",
+  "type": "module",
+  "bin": { "deploy-gate": "./index.js" },
+  "keywords": ["deploy", "ci", "checklist", "devops", "git-hooks", "cli"],
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
