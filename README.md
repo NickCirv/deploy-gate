@@ -1,3 +1,5 @@
+![Banner](banner.svg)
+
 # deploy-gate
 
 The deployment that would have broken production.
