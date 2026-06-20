@@ -6,5 +6,6 @@
   "bin": { "deploy-gate": "./index.js" },
   "keywords": ["deploy", "ci", "checklist", "devops", "git-hooks", "cli"],
   "license": "MIT",
-  "engines": { "node": ">=18" }
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=20" }
 }
